@@ -49,7 +49,7 @@ import {Controller} from "./Controller";
 build([Controller])
 
 ```
-###Создание декоратора для параметра
+### Создание декоратора для параметра
 Функция должена быть синхронной!!
 ```typescript
 export const MyDecoratorPlayer = createParamDecorator((player, args) => {
